@@ -16,6 +16,9 @@ in
     autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
     shellAliases = aliases;
+    interactiveShellInit = ''
+      eval $(thefuck --alias)
+    '';
     ohMyZsh = {
       enable = true;
       theme = "half-life";
