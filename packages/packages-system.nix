@@ -32,6 +32,7 @@
     lshw # Prints hardware info.
     xorg.xev # Event monitor.
     htop
+    thefuck # Correct previous terminal command.
 
     neovim
     ripgrep
