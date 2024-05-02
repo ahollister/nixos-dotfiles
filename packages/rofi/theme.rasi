@@ -15,7 +15,8 @@
 	bg1:     #323D43;
 	*/
 
-	fg0:     #D3C6AA;
+	fg0:     #E9823A;
+	/*fg0:     #D3C6AA;*/
 
 	accent-color:     #E9823A;
 	urgent-color:     #DBBC7F;
@@ -95,7 +96,7 @@ element selected urgent {
 }
 
 element-icon {
-	size:   2.2em;
+	size:   2em;
 }
 
 element-text {
