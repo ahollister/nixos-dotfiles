@@ -37,6 +37,14 @@
     ./packages/hyprland/hyprland-nixpkgs.nix # Hyprland window manager.
   ];
 
+  virtualisation.docker = {
+    enable = true;
+    rootless = {
+      enable = true;
+      setSocketVariable = true;
+    };
+  };
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 

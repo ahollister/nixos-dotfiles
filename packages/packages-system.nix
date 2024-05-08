@@ -43,5 +43,7 @@
     nodePackages.prettier # Prettier formatter.
     python3 # Python.
     cargo # Rust package manager.
+
+    docker-compose
   ];
 }
