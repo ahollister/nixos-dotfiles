@@ -40,7 +40,7 @@
     "format": "  {used:0.1f}/{total:0.1f}G"
   },
   "clock": {
-    "format": "{:%H:%M}",
+    "format": "{:%H:%M - %a %b %d %Y}",
     "format-alt": "{:%A, %B %d, %Y (%R)}  ",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
