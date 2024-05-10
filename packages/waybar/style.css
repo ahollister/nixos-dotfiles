@@ -18,6 +18,7 @@ window#waybar {
 	color: #E9823A;
 }
 
+#workspaces,
 #clock,
 #battery,
 #cpu,
@@ -35,10 +36,18 @@ window#waybar {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
     border: 2px solid rgba(0,0,40,0.8);
     border-radius: 4px;
-    color: #ffffff;
     padding: 2px 10px;
     margin: 4px 5px 0 5px;
+}
+
+#workspaces {
+    padding: 2px 10px 2px 6px;
+}
+
+#clock {
+	color: #E9823A;
 }
