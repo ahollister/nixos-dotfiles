@@ -2,8 +2,10 @@ let
   aliases = {
     l = "ls -la";
     ".." = "cd ..";
-    nixconfig = "cd ~/.dotfiles && nvim ./";
     nvimconfig = "cd ~/.config/nvim && nvim ./";
+    nixconfig = "cd ~/.dotfiles && nvim ./";
+    nixreload = "cd ~/.dotfiles && sudo nixos-rebuild switch --flake .#nixos-hyprland --show-trace";
+    homereload = "cd ~/.dotfiles && home-manager switch --flake .";
     v = "nvim";
     gs = "git status";
     gp = "git push";
