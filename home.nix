@@ -20,8 +20,10 @@
     ./packages/waybar/waybar.nix # Status Bar.
     ./packages/rofi/rofi.nix # Rofi.
     ./packages/hyprland/hyprland-home.nix # Hyperland config.
+    ./packages/dock/dock.nix # Dock.
     ./packages/swaylock/swaylock.nix # Lock screen config.
     ./packages/git/git.nix # Git config.
+    ./packages/gtk/gtk.nix
   ];
 
   # Allow unfree packages

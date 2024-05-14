@@ -16,12 +16,15 @@
     hyprland # Window manager.
     swaylock # Lock screen.
     waybar # Wayland status bar.
-    dolphin # File manager GUI.
+    xfce.thunar # File manager GUI.
+    nightfox-gtk-theme # Theme.
+    whitesur-icon-theme # Icon Theme.
     swww # Wallpaper daemon.
     wl-clipboard # Add clipboard support.
     clipman # Clipboard manager.
     rofi-wayland # App launcher.
     rofi-bluetooth # Bluetooth control via Rofi.
+    nwg-dock-hyprland # Dock.
 
     tlp # For battery management.
     brightnessctl # Handles brightness.
@@ -35,6 +38,8 @@
     thefuck # Correct previous terminal command.
 
     neovim
+    tmux
+    zoxide
     ripgrep
     fzf
     stylua # LSP Formatter for Lua.
