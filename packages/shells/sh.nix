@@ -9,6 +9,9 @@ let
     v = "nvim";
     gs = "git status";
     gp = "git push";
+    tmfl = "tmuxifier load-session";
+    tmfn = "tmuxifier new-session";
+    tmfe = "nvim $TMUXIFIER_LAYOUT_PATH";
   };
 in
 {
@@ -19,7 +22,9 @@ in
     syntaxHighlighting.enable = true;
     shellAliases = aliases;
     interactiveShellInit = ''
-      eval $(thefuck --alias)
+      eval $(thefuck --alias);
+      export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts";
+      export PATH=$HOME/.config/tmux/plugins/tmux-session-wizard/bin:$PATH
     '';
     ohMyZsh = {
       enable = true;

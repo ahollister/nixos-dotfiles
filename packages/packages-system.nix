@@ -39,6 +39,7 @@
 
     neovim
     tmux
+    tmuxifier
     zoxide
     ripgrep
     fzf
