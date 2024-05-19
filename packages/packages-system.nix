@@ -2,7 +2,7 @@
 # System Packages.
 # ------------------------------------
 
-{ pkgs, ... }:
+{ pkgs, pkgsUnstable, ... }:
 
 {
   # Define list of system packages.
@@ -15,6 +15,7 @@
 
     hyprland # Window manager.
     hyprpaper
+    pkgsUnstable.hyprlock
     waybar # Wayland status bar.
     xfce.thunar
     nightfox-gtk-theme # Theme.

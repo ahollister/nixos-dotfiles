@@ -34,7 +34,6 @@
     ./packages/xremap/xremap.nix # Keyboard remaps.
     ./packages/1password/1password.nix # Password Manager.
     ./packages/hyprland/hyprland-nixpkgs.nix # Hyprland window manager.
-    ./packages/stylix/stylix.nix # Stylix.
   ];
 
   virtualisation.docker = {

@@ -5,7 +5,7 @@
 # configs and dotfiles at the moment.
 #-------------------------------------
 
-{ ... }:
+{ nix-colors, ... }:
 
 {
   imports = [
@@ -24,7 +24,10 @@
     ./packages/dock/dock.nix # Dock.
     ./packages/git/git.nix # Git config.
     ./packages/gtk/gtk.nix
+    nix-colors.homeManagerModules.default
   ];
+
+  colorScheme = nix-colors.colorSchemes.tokyo-night-dark;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
