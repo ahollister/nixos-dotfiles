@@ -21,7 +21,6 @@
     ./system/timezone.nix # Timezone.
     ./system/fingerprint-scanner.nix # Fingerprint scanner.
     ./system/fonts.nix
-    ./system/security.nix
 
     # User Profiles.
     ./users/adam.nix
@@ -35,6 +34,7 @@
     ./packages/xremap/xremap.nix # Keyboard remaps.
     ./packages/1password/1password.nix # Password Manager.
     ./packages/hyprland/hyprland-nixpkgs.nix # Hyprland window manager.
+    ./packages/stylix/stylix.nix # Stylix.
   ];
 
   virtualisation.docker = {

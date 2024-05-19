@@ -8,7 +8,7 @@
 	font:   "JetBrains Mono Nerd Font 14";
 
 	bg0:     #000000;
-	bg1:     #222222;
+	bg1:     #111111;
 
 	/*
 	bg0:     #2B3339;
@@ -31,18 +31,18 @@
 
 window {
 	location:   center;
-	/*width:      480;*/
-	width:      600;
-
+	width:      800;
 	background-color:   @bg0;
-	border-radius: 4;
+
+	border-radius: 8;
+	border: 2px;
+	border-color: @accent-color;
 }
 
 inputbar {
-	spacing:    8px;
-	padding:    8px;
-
-	background-color:   @bg1;
+	spacing: 8px;
+	padding: 8px;
+	background-color: @bg1;
 }
 
 prompt, entry, element-icon, element-text {
@@ -54,16 +54,15 @@ prompt {
 }
 
 textbox {
-	padding:            8px;
-	background-color:   @bg1;
+	padding: 8px;
+	background-color: @bg1;
 }
 
 listview {
-	padding:    4px 0;
-	lines:      8;
-	columns:    1;
-
-	fixed-height:   false;
+	padding: 4px 0;
+	lines: 8;
+	columns: 1;
+	fixed-height: true;
 }
 
 element {
@@ -88,15 +87,15 @@ element selected {
 }
 
 element selected normal, element selected active {
-	background-color:   @accent-color;
+	background-color: @accent-color;
 }
 
 element selected urgent {
-	background-color:   @urgent-color;
+	background-color: @urgent-color;
 }
 
 element-icon {
-	size:   2em;
+	size: 1.75em;
 }
 
 element-text {

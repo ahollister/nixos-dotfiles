@@ -14,12 +14,12 @@
     bash # Shell.
 
     hyprland # Window manager.
-    swaylock # Lock screen.
+    hyprpaper
     waybar # Wayland status bar.
-    xfce.thunar # File manager GUI.
+    xfce.thunar
     nightfox-gtk-theme # Theme.
-    whitesur-icon-theme # Icon Theme.
-    swww # Wallpaper daemon.
+    gruvbox-dark-icons-gtk
+    bibata-cursors
     wl-clipboard # Add clipboard support.
     clipman # Clipboard manager.
     rofi-wayland # App launcher.
@@ -30,6 +30,7 @@
     brightnessctl # Handles brightness.
     upower # For power monitoring.
     git
+    gtk4
     unzip
     fd # Fast find.
     lshw # Prints hardware info.

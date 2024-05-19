@@ -10,6 +10,7 @@
     discord
     firefox
     spotify
+    filezilla
     _1password
     _1password-gui
   ];
